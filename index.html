@@ -1,0 +1,341 @@
+<html>
+<head>
+
+<!-- share boton client name start 1 stape -->
+
+  
+  <meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Rama Navami</title>
+ 
+<!-- share boton client name end 1 stape -->
+
+
+
+    <link rel="icon" type="image/png" sizes="32x32" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnBLrG7V0wImioTTsA7atD0B0v2wzSwEcjdKFtX7aAXgarP99iho_DkloTvv_ZLiLCbmkDIl84mHOmScT20PpPHDg2IjOB4whHAT0Tm2LKRsqUrKw0XiMjy8vJxr80HQFe8CFPq8sMka26wZsdj_btOymvqgX5-40f2L3GfaSZbgKxSoOSjTZfoqmqlOIZ/s265/slide1.png">
+
+<style>
+input[type=name], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.footerbtn {
+ 
+            display: block;
+            line-height: 20px;
+            position: fixed;
+            left:0px;
+            bottom:0px;
+            height:40px;
+            
+border-radius: 15px;
+  box-sizing: border-box;
+  padding: 5px;
+  background:#34af23;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  width:95%;
+ margin-left:10px;
+            margin-right:30px;
+            box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .3);
+            animation: footer infinite linear 1s;
+            -webkit-transform: translate3d(30%,0,0);
+            transform: translate3d(30%,0,0);
+            position: fixed;
+           
+}
+
+
+{
+  
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    animation: pulse 2s infinite;
+    width:87%;
+    margin:auto;
+}
+
+
+
+.footerbtn :active {
+            box-shadow: none
+        }
+
+        @-webkit-keyframes footer {
+            from {
+                -webkit-transform: rotateZ(0)
+            }
+            25% {
+                -webkit-transform: rotateZ(1.5deg)
+            }
+            50% {
+                -webkit-transform: rotateZ(0deg)
+            }
+            75% {
+                -webkit-transform: rotateZ(-1.5deg)
+            }
+            to {
+                -webkit-transform: rotateZ(0)
+            }}	
+
+    .Info1{position:fixed;left:1%; width:auto;height:100%;top:0%;color:#FF0000;}
+    .Info2{position:fixed;right:1%; width:auto;height:100%;top:0%;color:#FF0000;}
+
+</style>
+
+
+   
+
+
+<style type="text/css">
+canvas {
+	cursor: crosshair;
+	display: block;
+}
+*{margin:0;padding:0}body{text-align:center}img{border:none}.leftcurtain{width:50%;height:100%;top:0;left:0px;position:absolute;z-index:2}.rightcurtain{width:50%;height:100%;right:0px;top:0;position:absolute;z-index:3}.rightcurtain img,.leftcurtain img{width:100%;height:100%}.logo{margin:0 auto;margin-top:150px}.rope{position:absolute;top:10px;left:23%;z-index:4}.centered{position:absolute;top:75%;left:50%;transform:translate(-50%,-50%)}.aadi{background-image:url();background-repeat:no-repeat;background-attachment:fixed;background-position:top}.matki{height:200px;}@keyframes aadisoni{0%{transform:translate(0px,0px) rotate(0deg)}15%{transform:translate(-25px,0px) rotate(-5deg)}30%{transform:translate(20px,0px) rotate(3deg)}45%{transform:translate(-15px,0px) rotate(-3deg)}60%{transform:translate(10px,0px) rotate(2deg)}75%{transform:translate(-5px,0px) rotate(-1deg)}100%{transform:translate(0px,0px) rotate(0deg)}}@-webkit-keyframes aadisoni{0%{-webkit-transform:translate(0px,0px) rotate(0deg)}15%{-webkit-transform:translate(-25px,0px) rotate(-5deg)}30%{-webkit-transform:translate(20px,0px) rotate(3deg)}45%{-webkit-transform:translate(-15px,0px) rotate(-3deg)}60%{-webkit-transform:translate(10px,0px) rotate(2deg)}75%{-webkit-transform:translate(-5px,0px) rotate(-1deg)}100%{-webkit-transform:translate(0px,0px) rotate(0deg)}}
+#username {
+     color: black;  /* Fallback: assume this color ON TOP of image */
+   background: url(img/namegif.gif);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+          animation: swing 4s infinite;
+            text-transform: uppercase;
+          margin-bottom: 5px;
+          font-size: 40px;
+          padding: 0 10px;
+    font-family: 'SF Espresso Shack', cursive;
+} 
+
+#usernameb { color: black;  /* Fallback: assume this color ON TOP of image */
+   background: url(img/namegif.gif);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+          animation: swing 4s infinite;
+            text-transform: uppercase;
+          margin-bottom: 5px;
+          font-size: 25px;
+          padding: 0 10px;
+    font-family: 'SF Espresso Shack', cursive;
+}
+#loading {
+		
+}
+@-webkit-keyframes rotation-star {
+		from {
+				-webkit-transform: rotate(0deg);
+				 transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+				 transform: rotate(359deg);
+		}
+}
+
+@-keyframes rotation-star{
+    from {
+         -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+    }
+    to {
+         -webkit-transform: rotate(359deg);
+          transform: rotate(359deg);
+    }
+}
+
+                      
+  </style>
+  
+</head>
+
+<body class="aadi">
+<!-- door script start) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://edugic.com/jaishriram/slider.js" type="text/javascript"></script> 
+<script type="text/javascript">
+var scroll = $(document).ready(function(){$curtainopen=!1,$(".rope").click(function(){return $(this).blur(),0==$curtainopen?($(this).stop().animate({top:"-171%"},{queue:!1,duration:350,easing:"easeOutBounce"}),$(".leftcurtain").stop().animate({width:"1px"},2e3),$(".rightcurtain").stop().animate({width:"1px"},2e3),$curtainopen=!0):($(this).stop().animate({top:"-40px"},{queue:!1,duration:350,easing:"easeOutBounce"}),$(".leftcurtain").stop().animate({width:"50%"},2e3),$(".rightcurtain").stop().animate({width:"51%"},2e3),$curtainopen=!1),!1})});
+
+</script>
+<!-- door script end) -->
+
+
+<!-- adio start) -->
+<script>
+  function play(){
+       var audio = document.getElementById("audio");
+       audio.play();
+                 }
+   </script>
+<audio loop hidden id="audio" src="https://download1321.mediafire.com/ck8xvcaysz9g4QY7hlz3OYgpYoFxYmE7S2eQ0xIm9G52aCBxMo4l6tPooduU0YOmLkJcgQAQL2uTgE2s-nE0VZ0QH3L6DGlHeapgz62DbgHsuPMhSuVuOOwmxmyyYBNSS9Hz-bn5Eu9UD6LGoYbJNYqZb2qQL9qLQMl96uDnbjfH83U/8jk2z8ksm3ka43e/ram-ayodhya-song.mp3"></audio>
+<a class="rope" style="text-decoration:none;" href="#" onclick="play()"><br><br><br><br><br>
+
+<!-- adio end) -->
+
+<!-- start boton tex start) -->
+<div style="font-size: 29px;text-shadow: 1px 1px 3px black, 1px 1px 3px black, -1px -1px 3px black, -1px -1px 3px black;color:#ffe600;font-weight: bold;"><br><br><b>इस जादुई गद्दा<br>को<br>👇छू कर प्रवेश करें👇<br>👇Click Below👇<br></b></div>
+<!-- start buton tex end) -->
+
+<!-- door and start photo) -->
+  
+<div class="animated pulse" >
+<img id="loading" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7TTOqWp6B2mUF0quFAqYzgpVwy9Wvy4Pk3i4HpPHGnRdPtZwIVwlVgguDcKSlWlWluyOEPeDpKCVUgqzzuK7Wx9pSLPTQW_NeZLkwtP1W8imS15tYS6z9cEAmuFJko5cHuUvEiDYGfh6mZXTwu2PGdnPNPK25rJmZN3h4ZH9e63H9ZJQhLEIZL4h0kZKM/s169/Gadaa.png" class="" style="max-width: 160px; width: 100%; animation: aadisoni linear 3s infinite;" />
+</div>
+</a>
+<div class="leftcurtain"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUxZveXa6LaTr75251pfJxhBjDnCjsZFa9otoGmbE9vEctuJXKWAquQ5Ilzxw94JpZllnCQhEDpiHmOrwv7KXJ7Yi_klctff56C-myTUDvVpnxAVq7oEQXABSaDe70R1KDZXZ2811FGCuR25lOnWAebvduLPcz4X2Vvgqt-PT1Y5IbJ-vLvujfrNduHrfh/s1234/left.png"/></div>
+
+<div class="rightcurtain"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4uJ37QPsuTXyyBdlvY111MD4d9b34kFilFoSYIH3amQ75e8IzixdfvTl2LEJT4GwOJq54srB90VT2GaMqxpBgAbIWl3KERuLpTzq-jBpUemR_Dx4K-xcHL5OT3s-KRY5UViPkCWTIw4EoHFoWN558GbmlZFLasVaCtomlVatQD5wT2Ui5jDN-2FHt6ru6/s1236/right.png"/></div>
+
+<!-- door and start photo end) -->
+
+
+<!-- side roling photo start) -->
+<marquee class="Info1" behavior="scroll" direction="up" scrolldelay="0">  <br>
+<img height="40px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6wXbi46Zr6MNebE9V9BqQvqKXpLJMgYPKXdaHdiMoIsv8po-4f3KaoHZAhrNtny8ORaeclnThY9sEJ3ZUIc4etuZpkc-HQ20G-a88XGSeI2yWFmZUVfjnCE9LI_dX-uc9OT86AlKlNt3jVes8LidIKvCTozy5Wesu-kzT-8BAHaEx596iCylPQEtPNw3m/s383/flag.png" width="35px" /><br /><br />
+  <img height="40px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6wXbi46Zr6MNebE9V9BqQvqKXpLJMgYPKXdaHdiMoIsv8po-4f3KaoHZAhrNtny8ORaeclnThY9sEJ3ZUIc4etuZpkc-HQ20G-a88XGSeI2yWFmZUVfjnCE9LI_dX-uc9OT86AlKlNt3jVes8LidIKvCTozy5Wesu-kzT-8BAHaEx596iCylPQEtPNw3m/s383/flag.png" width="35px" /><br /><br />
+  <img height="40px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6wXbi46Zr6MNebE9V9BqQvqKXpLJMgYPKXdaHdiMoIsv8po-4f3KaoHZAhrNtny8ORaeclnThY9sEJ3ZUIc4etuZpkc-HQ20G-a88XGSeI2yWFmZUVfjnCE9LI_dX-uc9OT86AlKlNt3jVes8LidIKvCTozy5Wesu-kzT-8BAHaEx596iCylPQEtPNw3m/s383/flag.png" width="35px" /><br /><br />
+  <img height="40px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6wXbi46Zr6MNebE9V9BqQvqKXpLJMgYPKXdaHdiMoIsv8po-4f3KaoHZAhrNtny8ORaeclnThY9sEJ3ZUIc4etuZpkc-HQ20G-a88XGSeI2yWFmZUVfjnCE9LI_dX-uc9OT86AlKlNt3jVes8LidIKvCTozy5Wesu-kzT-8BAHaEx596iCylPQEtPNw3m/s383/flag.png" width="35px" /><br /><br />
+  <img height="40px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6wXbi46Zr6MNebE9V9BqQvqKXpLJMgYPKXdaHdiMoIsv8po-4f3KaoHZAhrNtny8ORaeclnThY9sEJ3ZUIc4etuZpkc-HQ20G-a88XGSeI2yWFmZUVfjnCE9LI_dX-uc9OT86AlKlNt3jVes8LidIKvCTozy5Wesu-kzT-8BAHaEx596iCylPQEtPNw3m/s383/flag.png" width="35px" /><br /><br />
+  <img height="40px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6wXbi46Zr6MNebE9V9BqQvqKXpLJMgYPKXdaHdiMoIsv8po-4f3KaoHZAhrNtny8ORaeclnThY9sEJ3ZUIc4etuZpkc-HQ20G-a88XGSeI2yWFmZUVfjnCE9LI_dX-uc9OT86AlKlNt3jVes8LidIKvCTozy5Wesu-kzT-8BAHaEx596iCylPQEtPNw3m/s383/flag.png" width="35px" /><br /><br />
+  <img height="40px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6wXbi46Zr6MNebE9V9BqQvqKXpLJMgYPKXdaHdiMoIsv8po-4f3KaoHZAhrNtny8ORaeclnThY9sEJ3ZUIc4etuZpkc-HQ20G-a88XGSeI2yWFmZUVfjnCE9LI_dX-uc9OT86AlKlNt3jVes8LidIKvCTozy5Wesu-kzT-8BAHaEx596iCylPQEtPNw3m/s383/flag.png" width="35px" /><br /><br />
+  <img height="40px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6wXbi46Zr6MNebE9V9BqQvqKXpLJMgYPKXdaHdiMoIsv8po-4f3KaoHZAhrNtny8ORaeclnThY9sEJ3ZUIc4etuZpkc-HQ20G-a88XGSeI2yWFmZUVfjnCE9LI_dX-uc9OT86AlKlNt3jVes8LidIKvCTozy5Wesu-kzT-8BAHaEx596iCylPQEtPNw3m/s383/flag.png" width="35px" /><br /><br />
+  <img height="40px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6wXbi46Zr6MNebE9V9BqQvqKXpLJMgYPKXdaHdiMoIsv8po-4f3KaoHZAhrNtny8ORaeclnThY9sEJ3ZUIc4etuZpkc-HQ20G-a88XGSeI2yWFmZUVfjnCE9LI_dX-uc9OT86AlKlNt3jVes8LidIKvCTozy5Wesu-kzT-8BAHaEx596iCylPQEtPNw3m/s383/flag.png" width="35px" /><br /><br />
+<img height="40px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6wXbi46Zr6MNebE9V9BqQvqKXpLJMgYPKXdaHdiMoIsv8po-4f3KaoHZAhrNtny8ORaeclnThY9sEJ3ZUIc4etuZpkc-HQ20G-a88XGSeI2yWFmZUVfjnCE9LI_dX-uc9OT86AlKlNt3jVes8LidIKvCTozy5Wesu-kzT-8BAHaEx596iCylPQEtPNw3m/s383/flag.png" width="35px" /><br /><br />
+
+</marquee>
+<marquee class="Info2" behavior="scroll" direction="down" scrolldelay="0"><br>
+<img height="40px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6wXbi46Zr6MNebE9V9BqQvqKXpLJMgYPKXdaHdiMoIsv8po-4f3KaoHZAhrNtny8ORaeclnThY9sEJ3ZUIc4etuZpkc-HQ20G-a88XGSeI2yWFmZUVfjnCE9LI_dX-uc9OT86AlKlNt3jVes8LidIKvCTozy5Wesu-kzT-8BAHaEx596iCylPQEtPNw3m/s383/flag.png" width="35px" /><br /><br />
+  <img height="40px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6wXbi46Zr6MNebE9V9BqQvqKXpLJMgYPKXdaHdiMoIsv8po-4f3KaoHZAhrNtny8ORaeclnThY9sEJ3ZUIc4etuZpkc-HQ20G-a88XGSeI2yWFmZUVfjnCE9LI_dX-uc9OT86AlKlNt3jVes8LidIKvCTozy5Wesu-kzT-8BAHaEx596iCylPQEtPNw3m/s383/flag.png" width="35px" /><br /><br />
+  <img height="40px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6wXbi46Zr6MNebE9V9BqQvqKXpLJMgYPKXdaHdiMoIsv8po-4f3KaoHZAhrNtny8ORaeclnThY9sEJ3ZUIc4etuZpkc-HQ20G-a88XGSeI2yWFmZUVfjnCE9LI_dX-uc9OT86AlKlNt3jVes8LidIKvCTozy5Wesu-kzT-8BAHaEx596iCylPQEtPNw3m/s383/flag.png" width="35px" /><br /><br />
+  <img height="40px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6wXbi46Zr6MNebE9V9BqQvqKXpLJMgYPKXdaHdiMoIsv8po-4f3KaoHZAhrNtny8ORaeclnThY9sEJ3ZUIc4etuZpkc-HQ20G-a88XGSeI2yWFmZUVfjnCE9LI_dX-uc9OT86AlKlNt3jVes8LidIKvCTozy5Wesu-kzT-8BAHaEx596iCylPQEtPNw3m/s383/flag.png" width="35px" /><br /><br />
+  <img height="40px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6wXbi46Zr6MNebE9V9BqQvqKXpLJMgYPKXdaHdiMoIsv8po-4f3KaoHZAhrNtny8ORaeclnThY9sEJ3ZUIc4etuZpkc-HQ20G-a88XGSeI2yWFmZUVfjnCE9LI_dX-uc9OT86AlKlNt3jVes8LidIKvCTozy5Wesu-kzT-8BAHaEx596iCylPQEtPNw3m/s383/flag.png" width="35px" /><br /><br />
+  <img height="40px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6wXbi46Zr6MNebE9V9BqQvqKXpLJMgYPKXdaHdiMoIsv8po-4f3KaoHZAhrNtny8ORaeclnThY9sEJ3ZUIc4etuZpkc-HQ20G-a88XGSeI2yWFmZUVfjnCE9LI_dX-uc9OT86AlKlNt3jVes8LidIKvCTozy5Wesu-kzT-8BAHaEx596iCylPQEtPNw3m/s383/flag.png" width="35px" /><br /><br />
+  <img height="40px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6wXbi46Zr6MNebE9V9BqQvqKXpLJMgYPKXdaHdiMoIsv8po-4f3KaoHZAhrNtny8ORaeclnThY9sEJ3ZUIc4etuZpkc-HQ20G-a88XGSeI2yWFmZUVfjnCE9LI_dX-uc9OT86AlKlNt3jVes8LidIKvCTozy5Wesu-kzT-8BAHaEx596iCylPQEtPNw3m/s383/flag.png" width="35px" /><br /><br />
+  <img height="40px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6wXbi46Zr6MNebE9V9BqQvqKXpLJMgYPKXdaHdiMoIsv8po-4f3KaoHZAhrNtny8ORaeclnThY9sEJ3ZUIc4etuZpkc-HQ20G-a88XGSeI2yWFmZUVfjnCE9LI_dX-uc9OT86AlKlNt3jVes8LidIKvCTozy5Wesu-kzT-8BAHaEx596iCylPQEtPNw3m/s383/flag.png" width="35px" /><br /><br />
+  <img height="40px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6wXbi46Zr6MNebE9V9BqQvqKXpLJMgYPKXdaHdiMoIsv8po-4f3KaoHZAhrNtny8ORaeclnThY9sEJ3ZUIc4etuZpkc-HQ20G-a88XGSeI2yWFmZUVfjnCE9LI_dX-uc9OT86AlKlNt3jVes8LidIKvCTozy5Wesu-kzT-8BAHaEx596iCylPQEtPNw3m/s383/flag.png" width="35px" /><br /><br />
+<img height="40px" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6wXbi46Zr6MNebE9V9BqQvqKXpLJMgYPKXdaHdiMoIsv8po-4f3KaoHZAhrNtny8ORaeclnThY9sEJ3ZUIc4etuZpkc-HQ20G-a88XGSeI2yWFmZUVfjnCE9LI_dX-uc9OT86AlKlNt3jVes8LidIKvCTozy5Wesu-kzT-8BAHaEx596iCylPQEtPNw3m/s383/flag.png" width="35px" /><br /><br />
+
+
+</marquee>
+<!-- side roling photo end) -->
+
+
+
+<!-- slide photo start) -->
+<div class="mySlides fade"> 
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-erzDDpMJh8EjZvyeyTbXeH-dqEEbw2nyYWfQgpU4Qq26Xo7k_JBw9LCgkGxU2iv-OIw6Fu3C3mvN91U2s5EBFO05Av7kE9BlkoixDb4plOLf85ZV5rZSwqtffQ-m_TIKp18iix_b5ssYTrKpomU25arA3RqeklpgdjScoJh_vIRoqerpcPr7MzOZSE55/s6481/831.jpg" style="animation: pulse 3.5s infinite; width:  260px; height: 213px;"></a>
+</div>
+  
+<div class="mySlides fade"> 
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5EAU8PdeOHVOoeYSWx-qWDzBMtJAu1SMyxPYolCdNdlufV-Ml6rX-YfJ4DYyk7ErtWJYpGAhwbHiD76SXOTro124eaqccNvo8-rYhmMS7u1CGiAkJlRldVUMBi5it7EL6PpCOzdSyiXwbBF8dVW6EY-802MEJKY1QpMpsIE2WrBVXdURgPi4jC2t328sL/s360/ramnavami%202.png" style="animation: pulse 3.5s infinite; width:  260px; height: 213px;"></a>
+</div>
+</div>
+</center>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span>  
+</div>
+<!-- slide photo end) -->
+
+<!-- Adds start -->
+ <div> 
+<ins style="width: 300px;height:250px" data-width="300" data-height="250" class="w72aced23e7" data-domain="//r-q-e.com" data-affquery="/cbfd4d2ce3931c0f79ed/72aced23e7/?placementName=default"><script src="//r-q-e.com/js/responsive.js" async></script></ins>
+</div>
+<!-- Adds end -->
+
+<!-- photo start) -->
+
+ <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhL_IRlPYo9NADY2EBaSlnrAbpNm1chZEdMlUVu-t3HBQyPqRj-uuTo31VsfUgdRfUrgTR0lRgPqrTyJDtGEcQe2ycL0LdpGp3NhcApt3uByZv-Nklm7S7V12fynaeT6X_SqVCipAy4GzQZeXhMpXwQghEhVywCtZKK7hI30mLxx3vZWFkvUu_9eJDHE7sG/s1975/ramnavami.png" style="animation: aadisoni 5s infinite;" height="213px" width="260px"></a></center><br>
+
+<!-- photo end) -->
+
+<!-- text sayeri start) -->
+
+<span style="font-size:18px;text-shadow: 0px 0px 4px #3c3c3c, 0px 0px 4px #3c3c3c, 0px 0px 4px #3c3c3c, 0px 0px 4px #3c3c3c;color:#faea04;">
+  <center style="animation: tada 4s infinite" class="swing2"><b>बच्चा बच्चा राम का</b></center></span><br>
+<span style="font-size:18px;text-shadow: 0px 0px 4px #3c3c3c, 0px 0px 4px #3c3c3c, 0px 0px 4px #3c3c3c, 0px 0px 4px #3c3c3c;color:#ff6d6d;">
+  <center style="animation: tada 4s infinite" class="swing2"><b>जन्म भूमि के काम का</b></center></span><br>
+<span style="font-size:18px;text-shadow: 0px 0px 4px #3c3c3c, 0px 0px 4px #3c3c3c, 0px 0px 4px #3c3c3c, 0px 0px 4px #3c3c3c;color:#faea04;">
+  <center style="animation: tada 4s infinite" class="swing2"><b>एक ही नारा एक ही नाम</b></center></span><br>
+<span style="font-size:18px;text-shadow: 0px 0px 4px #3c3c3c, 0px 0px 4px #3c3c3c, 0px 0px 4px #3c3c3c, 0px 0px 4px #3c3c3c;color:#ff6d6d;">
+  <center style="animation: tada 4s infinite" class="swing2"><b>जय श्री राम जय श्री राम !</b></center></span><br>
+  
+<!-- text sayeri end) -->  
+
+
+<!-- footer photo start) -->
+  
+  <center><img class="footer-img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnBLrG7V0wImioTTsA7atD0B0v2wzSwEcjdKFtX7aAXgarP99iho_DkloTvv_ZLiLCbmkDIl84mHOmScT20PpPHDg2IjOB4whHAT0Tm2LKRsqUrKw0XiMjy8vJxr80HQFe8CFPq8sMka26wZsdj_btOymvqgX5-40f2L3GfaSZbgKxSoOSjTZfoqmqlOIZ/s265/slide1.png" height="200px" width="210px"></a></marquee></center>
+
+<!-- Adds start -->
+<div>
+ 
+  <ins style="width: 300px;height:250px" data-width="300" data-height="250" class="ycb95b7cb71" data-domain="//r-q-e.com" data-affquery="/cbfd4d2ce3931c0f79ed/cb95b7cb71/?placementName=default"><script src="//r-q-e.com/js/responsive.js" async></script></ins> 
+  
+  </div>
+
+<!-- Adds end -->
+
+
+<center>
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhT2PGnW2yeG0vS5z1W5KS3MsNvJgl3b4JP8gKcFXO_cms_mw9kQl7RER0MOcEMyBw0eFn6f34xq8pshvNGwfDxHLeSCNM2OTN9BbJ9cz0J_jJTBET_Eej3dZykHerxOGOyJJhsnO0b9mMeCRwAGaWXK9l-V3_72NMw4tyVsNii7sggVmoWkNMCOR4oM_RW/s125/c.gif" class="img-responsive"  width="30%"></a></center>
+<br>
+
+<!-- footer photo end) --> 
+
+
+<!-- share boton client name start 2 stape -->
+
+<!-- Box for clients to input their name -->
+<div>
+  <span style="font-size:18px;text-shadow: 0px 0px 4px #3c3c3c, 0px 0px 4px #3c3c3c, 0px 0px 4px #3c3c3c, 0px 0px 4px #3c3c3c;color:#33ff4c;">
+  <label for="clientName">Enter your name:</label> 
+  <input type="text" id="clientName" name="clientName">
+
+</div>
+
+<!-- Sharing button with logo -->
+<div>
+  <button id="shareButton">
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjp_-qGB8Y6Kz_RfFy2XXPHlczepamD19EeRLUxNf9URJqWMY8AkXdM-KNwGNTZjZtn2q9ddrqlJgYfn1OS-B0ymTTRI5LKaQaRL9GVbvCxMDjKQnVl5M-TRjr_1bzCKbMmXHIEcyvxctsRn8WKqwWNilJFOfnlv6DKmCSiu4g9wcDjbBP9MVg1Vgm5dCJk/s1019/Whatsapp.png" alt="Share" width="60">
+  </button>
+
+</div>
+ 
+<div>
+</div>
+  
+<!-- Script to handle sharing -->
+<script>
+document.getElementById('shareButton').addEventListener('click', function() {
+  var clientName = document.getElementById('clientName').value;
+  var message = " sent Invitation!to Join in celebrating Ram Navmi,Click below link now 👇👇 to experience the magic.";
+  var photoURL = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnBLrG7V0wImioTTsA7atD0B0v2wzSwEcjdKFtX7aAXgarP99iho_DkloTvv_ZLiLCbmkDIl84mHOmScT20PpPHDg2IjOB4whHAT0Tm2LKRsqUrKw0XiMjy8vJxr80HQFe8CFPq8sMka26wZsdj_btOymvqgX5-40f2L3GfaSZbgKxSoOSjTZfoqmqlOIZ/s265/slide1.png";
+  var shareURL = "https://wishramanavami.blogspot.com";
+
+  // Construct the share message
+  var shareMessage = encodeURIComponent(clientName + message + "-" );
+  var sharePhoto = encodeURIComponent(photoURL);
+  var shareLink = encodeURIComponent(shareURL);
+
+  // Open sharing options
+  
+  window.open('whatsapp://send?text=' + shareMessage + '%20' + shareLink);
+  
+ });
+</script>
+
+
+<!-- share boton client name end 2 stape -->
+  
+  
+</body>
+</html>
